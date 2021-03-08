@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:"Montserrat";
+}
+.container{
+  position: relative;
+  width: 100%;
+}
+.head{
+  width: 1270px;
+}
+.nav {
+  position: absolute;
+  height: 25px;
+  left: 5px;
+  top: 36px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #533738;
+}
+
+.icon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 5px;
+  top: 36px;
+}
+.scandi{
+  position: absolute;
+  left: 30px;
+  top: 38px;
+}
+.company{
+  color: #533738;
+  position: absolute;
+  width: 148px;
+  left: 184px;
+  top: 38px;
+}
+.portfolio{
+  color: #533738;
+  position: absolute;
+  left: 339px;
+  top: 38px;
+}
+.team{
+  color: #533738;
+  position: absolute;
+  left: 480px;
+  top: 38px;
+}
+.work{
+  color: #533738;
+  position: absolute;
+  width: 200px;
+  left: 580px;
+  top: 38px;
+}
+.clients{
+  color: #533738;
+  position: absolute;
+  width: 148px;
+  left: 760px;
+  top: 38px;
+}
+.app{
+  color: #533738;
+  position: absolute;
+  width:200px;
+  left: 930px;
+  top: 38px;
+}
+.namber{
+  position: absolute;
+  width:200px;
+  left: 1100px;
+  top: 38px;
+}
+
+h1 {
+  position: absolute;
+  width: 534px;
+  height: 186px;
+  left: 184px;
+  top: 152px;
+  font-size: 50px;
+  line-height: 62px;
+  color: #533738;
+}
+.subtitle {
+  position: absolute;
+  width: 493px;
+  height: 90px;
+  left: 184px;
+  top: 362px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
+.application{
+  position: absolute;
+  left: 184px;
+  top: 482px;
+  width: 270px;
+  height: 85px;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #533738;
+}
+button {
+  background: #CC8B86;
+}
