@@ -5,109 +5,84 @@
 }
 body{
   background: #E5E5E5;
-  width: 1260px;
+  width: 100%;
 }
 .container{
-  position: relative;
+  background: url(image/header.png);
+  display: block;
 }
-.head{
-  width: 1260px;
+.head img{
+  position: relative;
+  width: 100%;
 }
 .nav {
-  position: absolute;
-  height: 25px;
-  left: 5px;
-  top: 36px;
+  margin: 0px;
   font-size: 16px;
-  line-height: 20px;
   color: #533738;
+  text-align: center;
+  display: inline-block;
 }
-.icon {
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  left: 5px;
-  top: 36px;
+.container a{
+  text-decoration: none;
 }
 .scandi{
-  position: absolute;
-  left: 30px;
-  top: 38px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .company{
-  color: #533738;
-  position: absolute;
-  width: 148px;
-  left: 184px;
-  top: 38px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .portfolio{
-  color: #533738;
-  position: absolute;
-  left: 339px;
-  top: 38px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .team{
-  color: #533738;
-  position: absolute;
-  left: 480px;
-  top: 38px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .work{
-  color: #533738;
-  position: absolute;
-  width: 200px;
-  left: 580px;
-  top: 38px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .clients{
-  color: #533738;
-  position: absolute;
-  width: 148px;
-  left: 760px;
-  top: 38px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .app{
-  color: #533738;
-  position: absolute;
-  width:200px;
-  left: 930px;
-  top: 38px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .namber{
-  position: absolute;
-  width:200px;
-  left: 1100px;
-  top: 38px;
+  padding: 10px;
 }
-
 h1 {
-  position: absolute;
-  width: 534px;
-  height: 186px;
-  left: 184px;
-  top: 152px;
+  padding: 10px;
+  margin-top: 95px;
+  margin-left: 95px;
   font-size: 50px;
-  line-height: 62px;
   color: #533738;
+  width: 540px;
 }
 .subtitle {
-  position: absolute;
-  width: 493px;
-  height: 90px;
-  left: 184px;
-  top: 362px;
-  font-style: normal;
+  padding: 10px;
+  margin-top: 1px;
+  margin-left: 95px;
   font-size: 18px;
-  line-height: 30px;
   color: #533738;
+  width: 540px;
 }
 .application{
-  position: absolute;
-  left: 184px;
-  top: 482px;
-  width: 270px;
-  height: 85px;
+  width: 240px;
+  height: 63px;
+  margin-left: 95px;
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
@@ -115,6 +90,8 @@ h1 {
 }
 button {
   background: #CC8B86;
+  text-decoration: none;
+  padding: 20px;
 }
 
 /***************** О нас ****************/
@@ -127,142 +104,79 @@ h2 {
   color: #533738;
 }
 .company_page h2{
-  position: absolute;
-  left: 580px;
-  top: 730px;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+.usus {
+  padding: 10px;
+  display: grid;
+  grid-gap: 20px;
+  justify-content: center;
+  grid-template-columns: 490px 490px;
+  grid-template-rows: 500px;
 }
 .uss {
-  position: absolute;
   width: 440px;
-  height: 465px;
-  left: 690px;
-  top: 870px;
+  font-size: 20px;
+  color: #533738;
 }
-.company_page img{
-  position: absolute;
+.us_img{
+  float: left;
   width: 440px;
   height: 450px;
-  left: 182px;
-  top: 870px;
+  margin-left:20px;
 }
 .figure{
-  position: absolute;
-  width: 1260px;
-  height: 230px;
-  left: 0px;
-  top: 1356px;
+  padding: 13px;
+  width: 100%;
+  height: 130px;
   background: #8D7370;
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 50px;
+  justify-content: center;
 }
 .fig{
   font-size: 36px;
   line-height: 62px;
   color: #fff;
+  text-align: center;
 }
-.number-5{
-  position: absolute;
-  width:29px;
-  height: 62px;
-  top: 50px;
-  left: 220px;
-}
-.number-100{
-  position: absolute;
-  width:29px;
-  height: 62px;
-  top: 50px;
-  left: 590px;
-}
-.number-10{
-  position: absolute;
-  width:85px;
-  height: 62px;
-  top: 50px;
-  left: 990px;
-}
-.years {
-  position: absolute;
-  width: 190px;
-  height: 62px;
-  left: 150px;
-  top: 100px;
-}
-.proekt {
-  position: absolute;
-  width: 190px;
-  height: 62px;
-  left: 540px;
-  top: 100px;
-}
-.awards {
-  position: absolute;
-  width: 190px;
-  height: 62px;
-  left: 950px;
-  top: 100px;
-}
+
 /************* Наши работы *************/
 .portfolio_page h2 {
-  position: absolute;
-  width: 332px;
-  height: 50px;
-  top: 1610px;
-  left: 140px;
+  margin-left: 50px;
+  padding: 20px;
+}
+.picture{
+  padding: 20px;
+}
+.picture img{
+  height: 400px;
+  position: relative;
+}
+.studia{
+  margin-top: 20px;
+  width: 100%;
 }
 .room {
   font-size: 24px;
-  text-align: center;
   color: #fff;
-  position: absolute;
   height: 111px;
-  width: 270px;
-  top: 1710px;
-  left: 240px;
 }
 .whatroom{
   font-size: 16px;
   color: #fff;
-  position: absolute;
   height: 150px;
   width: 270px;
-  top: 1790px;
-  left: 240px;
-}
-.picture{
-  position: absolute;
-  top: 1690px;
-  left: 140px;
-}
-.picture img{
-  max-height: 280px;
-}
-.first {
-  position: absolute;
-  left: 90px;
-  top: 5px ;
-}
-.second{
-  position: absolute;
-  left: 410px;
-  top: 5px ;
-}
-.third{
-  position: absolute;
-  left: 540px;
-  top: 300px ;
-}
-.fourth{
-  position: absolute;
-  left: 90px;
-  top: 300px ;
 }
 .look{
   font-size: 30px;
-  position: absolute;
-  left: 520px;
-  top: 2300px;
+  text-align: center;
 }
 /************* Команда *************/
-.team_page{
+/*.team_page{
   color: #533738;
   position: absolute;
   top: 2410px;
@@ -344,7 +258,7 @@ h2{
 }
 /************* Как мы работаем *************/
 
-.work_page{
+/*.work_page{
   position: absolute;
   text-align: center;
   left: 50px;
@@ -401,3 +315,4 @@ h2{
   left: 101px;
   top: 12px;
 }
+*/
