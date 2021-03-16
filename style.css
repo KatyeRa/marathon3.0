@@ -10,8 +10,11 @@ body{
 }
 .container{
   background: url(image/header.png);
-  display: block;
-  min-height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh
+  /* display: block;
+  min-height: 600px; */
 }
 .head img{
   position: relative;
@@ -130,13 +133,16 @@ h2 {
   height: 450px;
   margin-left:20px;
 }
+.company_page{
+  margin:0 auto;
+}
 .figure{
-  padding: 13px;
+  padding: 13px 0;
   width: 100%;
   height: 130px;
   background: #8D7370;
   display: grid;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: repeat(3,1fr);
   grid-template-rows: 50px;
   justify-content: center;
 }
@@ -148,24 +154,34 @@ h2 {
 }
 
 /************* Наши работы *************/
+.portfolio_page{
+  margin: 0 auto;
+  max-width:1140px;
+}
 .portfolio_page h2{
   text-align: left;
   margin-left: 50px;
   padding: 20px;
 }
+.portfolio_page img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .picture{
-  padding: 20px;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  column-gap: 20px;
+  row-gap: 30px;
+  max-width:1140px;
+
+
 }
-.picture img{
-  height: 400px;
+.picture-item:nth-child(1), .picture-item:nth-child(4){
+  grid-column: auto/span 5;
 }
-.first{
-  position: relative;
-  z-index: -1;
-}
-.first:hover{
-  transition: 0.5s;
+.picture-item:nth-child(2), .picture-item:nth-child(3){
+  grid-column: auto/span 7;
 }
 .studia{
   padding: 10px;
@@ -173,13 +189,6 @@ h2 {
   margin-left: 110px;
   z-index: 1;
   opacity: 0;
-}
-.studia:hover{
-  background: #644845;
-  height: 396px;
-  width: 404px;
-  opacity: 1;
-  transition: 0.5s;
 }
 .room {
   font-size: 36px;
@@ -265,7 +274,7 @@ h2{
 }
 .pic{
   display: grid;
-  grid-template-columns: 200px;
+  grid-template-columns: 400px;
   grid-template-rows: 300px 300px;
   justify-content: space-around;
 }
