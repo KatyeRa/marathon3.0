@@ -6,10 +6,12 @@
 body{
   background: #E5E5E5;
   width: 100%;
+  max-width: 1400px;
 }
 .container{
   background: url(image/header.png);
   display: block;
+  min-height: 600px;
 }
 .head img{
   position: relative;
@@ -162,11 +164,22 @@ h2 {
   position: relative;
   z-index: -1;
 }
+.first:hover{
+  transition: 0.5s;
+}
 .studia{
   padding: 10px;
-  margin-top: -830px;
+  margin-top: -826px;
   margin-left: 110px;
   z-index: 1;
+  opacity: 0;
+}
+.studia:hover{
+  background: #644845;
+  height: 396px;
+  width: 404px;
+  opacity: 1;
+  transition: 0.5s;
 }
 .room {
   font-size: 36px;
@@ -174,7 +187,7 @@ h2 {
   height: 111px;
   text-align: center;
   width: 390px;
-}
+8}
 .whatroom{
   font-size: 21px;
   color: #fff;
@@ -254,7 +267,7 @@ h2{
   display: grid;
   grid-template-columns: 200px;
   grid-template-rows: 300px 300px;
-  justify-content: center;
+  justify-content: space-around;
 }
 .Otz{
   color: #533738;
@@ -262,9 +275,14 @@ h2{
   text-align: left;
   font-size: 20px;
   display: grid;
-  grid-template-columns: 300px 300px;
+  grid-template-columns: 400px 400px;
   grid-template-rows: 500px;
   justify-content: center;
+}
+.ClinPage{
+  display: grid;
+  justify-content: center;
+  align-self: start;
 }
 .elip{
   background: #CC8B86;
@@ -291,21 +309,24 @@ h2{
   background: #8D7370;
   color: #fff;
   display: grid;
-  grid-template-columns: 300px 300px;
+  grid-template-columns: 500px 450px;
   grid-template-rows: 500px;
-  justify-content: space-around;
+  justify-content: center;
+}
+.app_page img{
+  width: 450px;
 }
 .app_page h2{
   margin-top: 30px;
-  width: 460px;
-  padding: 20px;
+  width: 600px;
+  padding: 10px;
   color: #fff;
   text-align: left;
 }
 .tit{
   font-size: 16px;
   width: 400px;
-  padding: 5px;
+  padding: 11px;
 }
 .app_page img{
   height: 500px;
